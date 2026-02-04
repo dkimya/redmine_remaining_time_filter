@@ -4,7 +4,7 @@ File.open("/tmp/rtf_init_ran.txt", "a") { |f| f.puts(Time.now.to_s) }
 
 Redmine::Plugin.register :redmine_remaining_time_filter do
   name        "Remaining time filter"
-  author      "You"
+  author      "Manage Petro"
   description "Adds an IssueQuery filter for remaining time (estimated - spent)"
   version     "0.4.1"
   requires_redmine version_or_higher: "6.1.0"
